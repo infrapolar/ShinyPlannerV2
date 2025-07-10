@@ -6,12 +6,20 @@
 </head>
 
 <body>
+  Your save:
+  <input id = "save"></input><br>
   Your total spells cast: 
   <input id = "spells" type="number" min="0" value="0"></input><br>
   Your seed: 
   <input id = "seed"></input><br>
   <button onclick = "getnextshiny()">Calculate</button>
-  <div id="output"></div>
+  <div id="output" style="white-space: pre-line"></div>
+  <br>
+  You should not have anything that increases chance of backfire like Supreme Intellect, Reality Bending or Diminish Ineptitude debuff
+  <br>
+  Based on <a href="https://lookas123.github.io/ShinyPlanner/">Lookas123's ShinyPlanner</a>
+  <br>
+  Added loading from save and Diminish Ineptitude buff account
   <script src="js.js"></script>
 </body>
 </html>
